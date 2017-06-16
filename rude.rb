@@ -29,10 +29,6 @@ class Rude
       end
   end
   
-  def doit
-      @rules["meth1"]["cond"].call
-  end
-  
   def get_path
     res = ""
     @path.each do |p|
